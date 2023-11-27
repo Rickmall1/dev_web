@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nautilus Home</title>
-    <link rel="stylesheet" type="text/css" href="../css/mirror.css" />
+    <title>Clientes</title>
+    <link rel="stylesheet" type="text/css" href="../../css/clientes.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,7 +14,9 @@
   </head>
   <body>
     <header>
-      <img src="../images/logo.jfif" id="logo" />
+      <a href="../index.html" id="home">
+        <img src="../../images/logo.jfif" id="logo" />
+      </a>
       <div id="bar">
         <input
           type="text"
@@ -22,31 +24,40 @@
           placeholder="Pesquisar"
           name="saerchBar"
         />
-        <a href="#"><img id="lupa" src="../images/Search.png" /></a>
+        <a href="#"><img id="lupa" src="../../images/Search.png" /></a>
       </div>
       <div class="icons">
         <button id="shopCart">
-          <img src="../images/cart.png" />
+          <img src="../../images/cart.png" />
         </button>
         <button id="person">
-          <img src="../images/person.png" />
+          <a href="../login/login.html"
+            ><img src="../../images/person.png"
+          /></a>
         </button>
       </div>
     </header>
     <nav>
       <ul>
-        <li><a href="#">Aquários</a></li>
-        <li><a href="#">Rações</a></li>
-        <li><a href="#">Decoração</a></li>
-        <li><a href="#">Filtros</a></li>
+        <li><a href="../categorias/aquarios.html">Aquários</a></li>
+        <li><a href="../categorias/racoes.html">Rações</a></li>
+        <li><a href="../categorias/decoracao.html">Decoração</a></li>
+        <li><a href="../categorias/filtros.html">Filtros</a></li>
       </ul>
     </nav>
     <main>
-      
+      <h1>Nossos clientes são:</h1>
+      <br />
+      <div id="container">
+        <img id="sabara" src="../../images/clientes/sabara.png" alt="" />
+        <img id="normal-img" src="../../images/clientes/neves.png" alt="" />
+        <img id="normal-img" src="../../images/clientes/arcos.png" alt="" />
+        <img id="normal-img" src="../../images/clientes/bambui.png" alt="" />
+      </div>
     </main>
     <footer>
       <div id="quemSomos">
-        <h1><a href="#">Quem somos</a></h1>
+        <h1><a href="../footer/quemsomos.html">Quem somos</a></h1>
         <ul>
           <li>Fundador</li>
           <li>Equipe</li>
@@ -54,7 +65,7 @@
         </ul>
       </div>
       <div>
-        <h1><a href="#">Clientes</a></h1>
+        <h1><a href="../footer/clientes.html">Clientes</a></h1>
         <ul>
           <li>IFMG ARCOS</li>
           <li>IFMG BAMBUÍ</li>
@@ -63,7 +74,7 @@
         </ul>
       </div>
       <div>
-        <h1><a href="#">Suporte</a></h1>
+        <h1><a href="../footer/suporte.html">Suporte</a></h1>
         <ul>
           <li>E-mail</li>
           <li>Atendimento online</li>
@@ -73,6 +84,6 @@
       </div>
       <div id="copyright">Copyright 2023 - Nautilus - CNPJ 000-000/00</div>
     </footer>
-    <script defer src="../js/mirror.js"></script>
+    <script defer src="../js/index.js"></script>
   </body>
 </html>

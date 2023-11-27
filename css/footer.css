@@ -209,98 +209,32 @@ footer>div>ul>li{
 
 /** CONTAINER **/
 #container{
-  text-align: center ;
-}
-
-/** ITEMS **/
-.item{
   display: inline-flex;
+  flex-direction: column;
   align-items: flex-start;
-  gap: 10rem;          
 
-  margin-top: 7.1rem;
+  margin-top: 8rem;
+  margin-left: 8.9rem;
 }
 
-article{
-   border: 1px solid white;
-}
-
-article>img{
-  width: max-content;
-  height: 260px;
-  flex-shrink: 0; 
-  padding: 1.5rem;
-}
-
-.title{
+.h1-normal{
   color: #000;
-  font-family: Roboto;
-  font-size: 12px;
+  font-family: Monda;
+  font-size: 10rem;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   line-height: normal;
 }
 
-/** PRECO **/
-.preco{
-  display: flex;
-  width: 24.5rem;
-  height: 32px;
-  padding: 7px 55px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  margin-left: 0.7rem;
-  margin-bottom: 1.4rem;
-
-
-
-  border-radius: 9px;
-  background: var(--azul-inter, #1DAFD1);
+#stf{
+  font-size: 1rem;
+  font-size: 27.152px;
 }
 
-.preco{
-  color: #FFF;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+p{
+  width: 659px;
+  height: 18.4rem;
 }
-
-.adicionar>button{
-  display: inline-flex;
-  height: 3.2rem;
-  width: 25rem;
-  align-items: center;
-  flex-shrink: 0;
-
-  border-radius: 9px;
-  background: #FFF;
-
-  cursor: pointer;
-}
-
-.adicionar>button:hover{
-  background: #ffffffa1;
-}
-
-.adicionar>button:active{
-  background-color: #fff;
-}
-
-.adicionar>button>img{
-  width: 2.8rem;
-  height: 3.2rem;
-  flex-shrink: 0;
-  border-radius: 8px 0px 0px 8px;
-  background: #789EFF;
-}
-
-.adicionar>button>span{
-  margin-left: 6.8rem;
-}
-
 
 
 
