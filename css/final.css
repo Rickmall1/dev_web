@@ -1,0 +1,256 @@
+/**RESET CSS **/
+*,
+*::after,
+*::before { 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.6rem;
+  line-height: 150%;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+
+  background: #A3D0D8;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/** FONTE **/
+*{
+  font-family: 'Monda', sans-serif;
+}
+
+/** HEADER **/
+header{ 
+  width: 1366px;
+  height: 300px;
+  flex-shrink: 0;
+  display: flex;
+  
+  background: var(--azul-claro, #BADBE1);
+}
+
+/** LOGO **/ 
+#home{
+  width: 24.8rem;
+  height: 180px;
+  flex-shrink: 0;
+  
+  margin-top: 5rem;
+}
+
+/** searchBar **/
+#bar{
+  width: 686px;
+  height: 73.465px;
+  flex-shrink: 0;
+  margin-top: 13rem;
+  
+  display: flex;
+
+  border-radius: 14px;
+  background: #94BBC2;
+  padding: 8px;
+}
+
+#searchBar{
+  width: 63rem;
+  background: none;
+
+  color: #e1e1e1;
+}
+
+#lupa{
+  width: 45.37px;
+  height: 36.369px;
+  flex-shrink: 0;
+  margin-top: 1.2rem;
+}
+
+#lupa:hover{
+  background-color: #a4d0d89f;
+  border-radius: 8px;
+}
+
+#lupa:active{
+  background: #94BBC2;
+}
+
+/** Icones **/
+.icons{
+  display: flex;
+  margin-left: 7rem;
+  margin-top: 125px;
+  gap: 58px;
+}
+
+#shopCart{
+  width: 59px;
+  height: 59px;
+  flex-shrink: 0;
+
+  background: var(--azul-claro, #BADBE1);
+
+  cursor: pointer;
+}
+
+#shopCart:hover{
+ border: solid 1px rgb(255, 255, 255);
+}
+
+#shopCart:active{
+  background-color:  #a7cdd3;
+}
+
+#person{
+  width: 59px;
+  height: 59px;
+  flex-shrink: 0;
+  background: var(--azul-claro, #BADBE1);
+  cursor: pointer;
+}
+
+#person:hover{
+ border: solid 1px rgb(255, 255, 255);
+}
+
+#person:active{
+  background-color:  #a7cdd3;
+}
+
+/** NAV **/
+nav{
+  height: 85px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  background: var(--azul-inter, #1DAFD1);
+}
+
+nav>ul{
+  display: flex;
+  gap: 73px;
+  margin-top: 20px;
+
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+nav>ul>li>a{
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+nav>ul>li>a:hover{
+  color: #ffffff9d;
+}
+
+nav>ul>li>a:active{
+  color: #fff;
+}
+
+/** FOOTER **/
+footer{
+  width: 1366px;
+  height: 273px;
+  flex-shrink: 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 9.8rem;
+
+  padding: 44px 0 0 0 ;
+
+  margin-top: 9.9rem;
+
+  background: var(--azul-inter, #1DAFD1);
+}
+
+a{
+  color: black;
+}
+ 
+a:active{
+  text-decoration: none;
+}
+
+footer>div>ul>li{
+  color: white;
+}
+
+#quemSomos{
+  margin-bottom:  2.1rem;
+}
+
+#copyright{
+  margin-top: 10rem;
+}
+
+/** CONTAINER **/
+#container{
+  margin-top: 18.6rem;
+  margin-left: 24.8rem;
+  margin-bottom: 27.7rem;
+  width: 76.7rem;
+  height: 85rem;
+  flex-shrink: 0;
+
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+
+  border-radius: 8px;
+  background: #789EFF;
+}
+
+.login{
+  margin-right: 36rem;
+}
+
+#container>h1{
+  color: #FFF;
+  text-align: center;
+  font-family: Monda;
+  font-size: 55.881px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+button{
+  width: 170px;
+  height: 77px;
+  flex-shrink: 0;
+
+  color: white;
+
+  cursor: pointer;
+
+  border-radius: 7px;
+  background: var(--azul-zima, #00154B);
+}
+
