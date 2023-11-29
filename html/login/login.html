@@ -47,13 +47,20 @@
     </nav>
     <main>
       <div id="container">
-        <h1>Login</h1>
-        <h2 class="login">E-mail</h2>
-        <input type="email" />
-        <h2 class="login">Senha</h2>
-        <input type="password" />
-        <a href="../login/registro.html">Novo por aqui?/Registrar</a>
-        <button>CONTINUAR</button>
+        <form action="">
+          <h1>Login</h1>
+          <h2 class="login">E-mail</h2>
+          <input id="email" class="forms" type="text" name="email" />
+          <h2 class="login">Senha</h2>
+          <input id="senha" class="forms" type="password" name="password" />
+          <a href="../login/registro.html">Novo por aqui?/Registrar</a>
+          <input
+            onclick="logar(); return false"
+            class="submit"
+            type="submit"
+            value="CONTINUAR"
+          />
+        </form>
       </div>
     </main>
     <footer>
@@ -85,6 +92,6 @@
       </div>
       <div id="copyright">Copyright 2023 - Nautilus - CNPJ 000-000/00</div>
     </footer>
-    <script defer src="../js/index.js"></script>
+    <script defer src="../../js/login.js"></script>
   </body>
 </html>

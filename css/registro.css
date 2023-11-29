@@ -294,3 +294,19 @@ footer>div>ul>li{
 #container>button:active{
   background: #00154B;
 }
+
+.continuar{
+  padding: 4rem;
+  border-radius: 0.8rem;
+  background-color: #00154B;
+  color: white;
+  cursor: pointer;
+}
+
+.continuar:hover{
+  background-color: #00154ba4;
+}
+
+.continuar:active{
+  background-color: #00154B;
+}

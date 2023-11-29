@@ -55,7 +55,7 @@ header{
   width: 71vh;
   height: 70vh;
   position: relative;
-  top: -241rem;
+  top: -153rem;
   left: 39rem;
   background-color: rgb(255, 255, 255);
   display: none;
@@ -438,7 +438,4 @@ article>img{
 .adicionar>button>span{
   margin-left: 6.8rem;
 }
-
-
-
 

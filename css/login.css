@@ -207,9 +207,9 @@ footer>div>ul>li{
   margin-top: 10rem;
 }
 
-/** CONTAINER **/
+/** container**/
 
-#container{
+#container>form{
   margin-top: 18.6rem;
   margin-left: 24.8rem;
   margin-bottom: 27.7rem;
@@ -232,7 +232,7 @@ footer>div>ul>li{
   margin-right: 36rem;
 }
 
-#container>h1{
+#container>form>h1{
   width: 176px;
   height: 98px;
   flex-shrink: 0;
@@ -245,7 +245,7 @@ footer>div>ul>li{
   line-height: normal;
 }
 
-#container>a{
+#container>form>a{
   color: #FFF;
   font-family: Monda;
   font-size: 21.106px;
@@ -254,7 +254,7 @@ footer>div>ul>li{
   line-height: normal;
 }
 
-#container>h2{
+#container>form>h2{
   width: 132px;
   height: 52px;
   flex-shrink: 0;
@@ -267,7 +267,7 @@ footer>div>ul>li{
   line-height: normal;
 }
 
-#container>input{
+.forms{
   width: 470px;
   height: 5rem;
   flex-shrink: 0;
@@ -276,7 +276,7 @@ footer>div>ul>li{
   background: #FFF; 
 }
 
-#container>button{
+.submit{
   width: 170px;
   height: 77px;
   flex-shrink: 0;
@@ -287,10 +287,10 @@ footer>div>ul>li{
   cursor: pointer;
 }
 
-#container>button:hover{
+.submit:hover{
   background: #00154bab;
 }
 
-#container>button:active{
+.submit:active{
   background: #00154B;
 }

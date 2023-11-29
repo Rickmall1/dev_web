@@ -4,17 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rações</title>
-    <link rel="stylesheet" type="text/css" href="../../../../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/racoes.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Monda&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="shortcut icon"
+      type="imagex/png"
+      href="../../images/logosite.png"
+    />
   </head>
   <body>
     <header>
-      <a href="../html/index.html" id="home">
+      <div class="teste"></div>
+      <a href="../index.html" id="home">
         <img src="../../images/logo.jfif" id="logo" />
       </a>
       <div id="bar">
@@ -22,14 +28,15 @@
           type="text"
           id="searchBar"
           placeholder="Pesquisar"
-          name="saerchBar"
+          name="searchBar"
         />
         <a href="#"><img id="lupa" src="../../images/Search.png" /></a>
       </div>
       <div class="icons">
-        <button id="shopCart">
+        <button onclick="abrirModal()" id="shopCart">
           <img src="../../images/cart.png" />
         </button>
+
         <button id="person">
           <a href="../login/login.html"
             ><img src="../../images/person.png"
@@ -39,7 +46,7 @@
     </header>
     <nav>
       <ul>
-        <li><a href="aquarios.html">Aquários</a></li>
+        <li><a href="../categorias/aquarios.html">Aquários</a></li>
         <li><a href="../categorias/racoes.html">Rações</a></li>
         <li><a href="../categorias/decoracao.html">Decoração</a></li>
         <li><a href="../categorias/filtros.html">Filtros</a></li>
@@ -50,10 +57,11 @@
       <div id="container">
         <div class="item">
           <article>
-            <img src="../../images/racao/faihfood.jfif" /><span class="title"
-              >Ração faihfood</span
-            >
-            <div class="preco">R$37,99<span class="cart-price"></span></div>
+            <img
+              class="product-image"
+              src="../../images/racao/faihfood.jfif"
+            /><span class="product-title">Ração faihfood</span>
+            <div class="preco"><span class="product-price">R$37,99</span></div>
             <div class="adicionar">
               <button>
                 <img src="../../images/cart.png" /><span>Adicionar</span>
@@ -61,10 +69,11 @@
             </div>
           </article>
           <article>
-            <img src="../../images/racao/fichnation.jfif" /><span class="title"
-              >Ração fichnation</span
-            >
-            <div class="preco"><span class="cart-price">R$18,99</span></div>
+            <img
+              class="product-image"
+              src="../../images/racao/fichnation.jfif"
+            /><span class="product-title">Ração fichnation</span>
+            <div class="preco"><span class="product-price">R$18,99</span></div>
             <div class="adicionar">
               <button>
                 <img src="../../images/cart.png" /><span>Adicionar</span>
@@ -72,10 +81,11 @@
             </div>
           </article>
           <article>
-            <img src="../../images/racao/fictnic.jfif" /><span class="title"
-              >Ração fictnic</span
-            >
-            <div class="preco"><span class="cart-price">R$49,99</span></div>
+            <img
+              class="product-image"
+              src="../../images/racao/fictnic.jfif"
+            /><span class="product-title">Ração fictnic</span>
+            <div class="preco"><span class="product-price">R$49,99</span></div>
             <div class="adicionar">
               <button>
                 <img src="../../images/cart.png" /><span>Adicionar</span>
@@ -86,10 +96,11 @@
         <br />
         <div class="item">
           <article>
-            <img src="../../images/racao/fishfed.jfif" /><span class="title"
-              >Ração fishfed</span
-            >
-            <div class="preco"><span class="cart-price">R$27,99</span></div>
+            <img
+              class="product-image"
+              src="../../images/racao/fishfed.jfif"
+            /><span class="product-title">Ração fishfed</span>
+            <div class="preco"><span class="product-price">R$27,99</span></div>
             <div class="adicionar">
               <button>
                 <img src="../../images/cart.png" /><span>Adicionar</span>
@@ -97,11 +108,12 @@
             </div>
           </article>
           <article>
-            <img src="../../images/racao/frcea10n.jfif" /><span class="title"
-              >Ração FRC10N</span
-            >
+            <img
+              class="product-image"
+              src="../../images/racao/frcea10n.jfif"
+            /><span class="product-title">Ração FRC10N</span>
             <div class="preco">
-              <span class="cart-price">R$89,90</span>
+              <span class="product-price">R$89,90</span>
             </div>
             <div class="adicionar">
               <button>
@@ -110,10 +122,13 @@
             </div>
           </article>
           <article>
-            <img src="../../images/racao/promeat.jfif" /><span class="title"
-              >Ração Promeat</span
-            >
-            <div class="preco"><span class="cart-price">R$59,90</span></div>
+            <img
+              class="product-image"
+              src="../../images/racao/promeat.jfif"
+            /><span class="product-title">Ração Promeat</span>
+            <div class="preco">
+              <span class="product-price">R$110,90</span>
+            </div>
             <div class="adicionar">
               <button>
                 <img src="../../images/cart.png" /><span>Adicionar</span>
@@ -153,6 +168,31 @@
       </div>
       <div id="copyright">Copyright 2023 - Nautilus - CNPJ 000-000/00</div>
     </footer>
-    <script defer src="../js/index.js"></script>
+
+    <div id="janela-modal" class="janela-modal">
+      <div class="modal">
+        <button class="fechar" id="fechar">X</button>
+        <table class="cart-table">
+          <thead>
+            <tr>
+              <th class="table-head-tem first-col">Item</th>
+              <th class="table-head-tem second-col">Preço</th>
+              <th class="table-head-tem third-col">Quantidade</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+          <tfoot>
+            <tr>
+              <td class="cart-total-container" colspan="3">
+                <strong>Total</strong>
+                <span>R$0,00</span>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+        <button class="purchase-button">Finalizar compra</button>
+      </div>
+    </div>
+    <script defer src="../../js/index.js"></script>
   </body>
 </html>
