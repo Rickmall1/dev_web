@@ -6,7 +6,6 @@ Funções JS:
 
 - Carrinho de compra;
 - Login/registro;
-- Barra de pesqusia;
 
 ### Ferramentas utilizadas:
 
@@ -18,4 +17,4 @@ Funções JS:
 ### Status do projeto:
 
 - Em andamento;
-- Último commit: 26/11/2023;
+- Último commit: 29/11/2023;
